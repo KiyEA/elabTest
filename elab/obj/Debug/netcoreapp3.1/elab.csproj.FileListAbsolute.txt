@@ -1,0 +1,13 @@
+C:\Users\1111\source\repos\elab\elab\bin\Debug\netcoreapp3.1\elab.exe
+C:\Users\1111\source\repos\elab\elab\bin\Debug\netcoreapp3.1\elab.deps.json
+C:\Users\1111\source\repos\elab\elab\bin\Debug\netcoreapp3.1\elab.runtimeconfig.json
+C:\Users\1111\source\repos\elab\elab\bin\Debug\netcoreapp3.1\elab.runtimeconfig.dev.json
+C:\Users\1111\source\repos\elab\elab\bin\Debug\netcoreapp3.1\elab.dll
+C:\Users\1111\source\repos\elab\elab\bin\Debug\netcoreapp3.1\elab.pdb
+C:\Users\1111\source\repos\elab\elab\obj\Debug\netcoreapp3.1\elab.csprojAssemblyReference.cache
+C:\Users\1111\source\repos\elab\elab\obj\Debug\netcoreapp3.1\elab.AssemblyInfoInputs.cache
+C:\Users\1111\source\repos\elab\elab\obj\Debug\netcoreapp3.1\elab.AssemblyInfo.cs
+C:\Users\1111\source\repos\elab\elab\obj\Debug\netcoreapp3.1\elab.csproj.CoreCompileInputs.cache
+C:\Users\1111\source\repos\elab\elab\obj\Debug\netcoreapp3.1\elab.dll
+C:\Users\1111\source\repos\elab\elab\obj\Debug\netcoreapp3.1\elab.pdb
+C:\Users\1111\source\repos\elab\elab\obj\Debug\netcoreapp3.1\elab.genruntimeconfig.cache
