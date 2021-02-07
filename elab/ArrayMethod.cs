@@ -76,23 +76,27 @@ namespace elab
             }
             else
             {
-                if (mass[index - 1] < mass[index + 1]) { 
-                    if(checker[index-1]!=1)
-                    return index - 1;
+                if (mass[index - 1] < mass[index + 1]) {
+
+                    if (checker[index - 1] != 1)
+                        return index - 1;
+                    else if (checker[index - 1]==1&&checker[index+1]==1) return indexOfMinValue < index ? index - 1 : index + 1;
                     else { return index + 1; }
-                
                 }
-                else if (mass[index - 1] == mass[index + 1]) return MinOfPair(mass,index);
+                else if (mass[index - 1] == mass[index + 1]) return indexOfMinValue < index ? index - 1 : index + 1;
                 else {
                     if (checker[index + 1] != 1)
                         return index + 1;
+                    else if (checker[index - 1] == 1 && checker[index + 1] == 1) return indexOfMinValue < index ? index - 1 : index + 1;
                     else { return index - 1; }
                 }
             }
         }
-        private int MinOfPair(int[] mass, int index)
+        private int MinOfPair(int[] mass, int index, int indexOfMinValue)
         {
-            return (mass[index - 1] + mass[index - 2] < mass[index + 1] + mass[index + 2]) ? index - 1 : index + 1;
+            if (index > 1 && index < mass.Length - 2) 
+            return indexOfMinValue < index ? index - 1 : index + 1;
+            else  { return indexOfMinValue < index ? index - 1 : index + 1; }
         }
     }
 }

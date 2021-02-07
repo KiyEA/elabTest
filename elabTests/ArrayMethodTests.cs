@@ -22,7 +22,7 @@ namespace elab.Tests
             Assert.AreEqual(0, arrayMethod.GetCount(new int[] { 2 }));
             Assert.AreEqual(4, arrayMethod.GetCount(new int[] { 2,6 }));
             Assert.AreNotEqual(0, arrayMethod.GetCount(new int[] { 1,5 }));
-
+            Assert.AreEqual(2, arrayMethod.GetCount(new int[] { 4, 7, 7 }));
         }
     }
 }

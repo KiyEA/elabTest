@@ -8,7 +8,7 @@ namespace elab
         {
 
             ArrayMethod arrayMethod = new ArrayMethod();
-           int s = arrayMethod.GetCount(new int[] {4,4,5,8,5,3,6 });
+           int s = arrayMethod.GetCount(new int[] { 0, 10, 0, 8, 3, 10, 7, 0, 9, 3 });
             Console.WriteLine($"{s}");
         }
     }
